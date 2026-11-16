@@ -1,0 +1,202 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi there",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Is anyone there?",
+        "Greetings",
+        "Hey there",
+        "Hi, I have a question",
+        "Good day",
+        "Hi, can you assist me?"
+      ],
+      "responses": [
+        "Hello! Welcome to the College Helpdesk. How can I assist you today?",
+        "Hi there! I am your college assistant. What would you like to know?",
+        "Greetings! How may I help you with your college inquiries?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "Have a good day",
+        "Talk to you soon",
+        "I am leaving now",
+        "Farewell",
+        "Good night",
+        "Bye bye",
+        "See you next time",
+        "I will talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day ahead.",
+        "See you later! Feel free to reach out if you have more questions.",
+        "Bye! Best of luck with your studies."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "Thanks for your help",
+        "Much appreciated",
+        "Thank you so much",
+        "I appreciate your help",
+        "That was helpful",
+        "Thanks for the information",
+        "Thanks",
+        "Thank you very much",
+        "Thank you for the guidance",
+        "I appreciate your quick response"
+      ],
+      "responses": [
+        "You're welcome! Happy to help.",
+        "Glad I could assist you! Let me know if you need anything else.",
+        "Anytime! Don't hesitate to ask if you have more questions."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "May I know your name?",
+        "What should I call you?",
+        "Do you have a name?",
+        "Tell me your name",
+        "What are you called?",
+        "Are you a bot?",
+        "Introduce yourself",
+        "What is your identity?",
+        "Tell me what you are called",
+        "What is your bot name?"
+      ],
+      "responses": [
+        "I am CampusBot, your friendly college helpdesk assistant!",
+        "You can call me CampusBot. I'm here to answer your college questions.",
+        "My name is CampusBot, an AI assistant created for college inquiries."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need some help",
+        "What can you do?",
+        "How can you assist me?",
+        "Help me please",
+        "What topics can I ask about?",
+        "I have some doubts",
+        "Guide me",
+        "Support required",
+        "How does this chatbot work?",
+        "Can you guide me with college information?",
+        "I need assistance with college queries"
+      ],
+      "responses": [
+        "I can help you with college timings, courses, fee structure, contact info, and general inquiries. What would you like to know?",
+        "You can ask me about courses offered, annual fees, office hours, or campus contact details!",
+        "I am here to guide you. Just type your question regarding college admissions, fees, or timings."
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "What are the college hours?",
+        "When is the college open?",
+        "What are the office timings?",
+        "College opening and closing time",
+        "What time does the campus open?",
+        "Is the campus open on weekends?",
+        "Working hours of the administration",
+        "What are the library hours?",
+        "When do classes start?",
+        "Till what time is the college open?",
+        "At what time does the college close?",
+        "College operational hours"
+      ],
+      "responses": [
+        "The college is open Monday to Friday from 8:30 AM to 5:00 PM. The library remains open until 7:00 PM.",
+        "Our academic hours are 9:00 AM to 4:30 PM on weekdays. Administrative offices are open 9:00 AM to 5:00 PM.",
+        "Campus hours are 8:30 AM to 5:00 PM, Monday through Friday. We are closed on Sundays and public holidays."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses do you offer?",
+        "Which degrees are available?",
+        "What engineering branches do you have?",
+        "Tell me about the computer science program",
+        "List of undergraduate programs",
+        "Are there postgraduate degrees?",
+        "Which academic programs are offered?",
+        "Do you have B.Tech courses?",
+        "Available diploma courses",
+        "Can you tell me about the curriculum?",
+        "Which degree programs can I enroll in?",
+        "What branches are available for admission?"
+      ],
+      "responses": [
+        "We offer B.Tech in Computer Science, AI & ML, Electronics, Mechanical, and Civil Engineering, along with M.Tech and MCA programs.",
+        "Our undergraduate programs include B.Tech in CSE, ECE, ME, and Civil. We also offer postgraduate programs like M.Tech and MBA.",
+        "We offer accredited 4-year B.Tech degrees, 2-year M.Tech specializations, and diploma programs in engineering."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "How much is the tuition fee?",
+        "What are the fee structure details?",
+        "Can you share the semester fees?",
+        "What does the college charge per year?",
+        "Are there any installment options for fees?",
+        "How much do I need to pay for admission?",
+        "What is the annual course fee?",
+        "Where do I pay my college fees?",
+        "Is there any scholarship to reduce fees?",
+        "Tuition fee for engineering",
+        "What is the fee or cost per semester?",
+        "Tuition cost details"
+      ],
+      "responses": [
+        "Tuition fees are approximately INR 85,000 per semester for B.Tech programs. Merit scholarships are available.",
+        "The annual fee ranges between INR 80,000 and INR 1,20,000 depending on the engineering branch. Installment plans are offered.",
+        "For detailed fee structures and scholarship eligibility, please visit the accounts section or check our fee breakdown online."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact the college?",
+        "What is the admissions office phone number?",
+        "Give me the college email address",
+        "Where is the college located?",
+        "What is the address of the campus?",
+        "Who should I call for inquiries?",
+        "Can I get the helpline number?",
+        "College contact details",
+        "Official email for student support",
+        "How do I reach the administrative desk?",
+        "Where is the university campus located?",
+        "What is the official contact number?"
+      ],
+      "responses": [
+        "You can reach our admissions desk at +91-9876543210 or email us at helpdesk@college.edu.",
+        "Our campus is located at Knowledge Park, Main City. You can call us at 011-23456789 or email info@college.edu.",
+        "Contact the college office via phone (+91-9876543210) or email (admissions@college.edu), Monday to Friday."
+      ]
+    }
+  ]
+}
